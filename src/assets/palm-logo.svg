@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="600" height="660">
+  <!-- Couleur principale (vert) -->
+  <defs>
+    <style>
+      .primary { fill: #228B22; } /* changez la valeur hex ici si vous voulez un autre vert */
+    </style>
+  </defs>
+
+  <!-- Étoile/losange en haut -->
+  <path class="primary" d="M100 12 L112 32 L100 44 L88 32 Z"/>
+
+  <!-- Feuilles supérieures (gauche / droite) -->
+  <path class="primary" d="M100 36
+                           C78 24, 50 26, 30 46
+                           C54 46, 78 50, 100 66
+                           Z"/>
+  <path class="primary" d="M100 36
+                           C122 24, 150 26, 170 46
+                           C146 46, 122 50, 100 66
+                           Z"/>
+
+  <!-- Feuilles inférieures (gauche / droite) -->
+  <path class="primary" d="M100 66
+                           C80 66, 54 82, 34 110
+                           C58 100, 80 96, 100 94
+                           Z"/>
+  <path class="primary" d="M100 66
+                           C120 66, 146 82, 166 110
+                           C142 100, 120 96, 100 94
+                           Z"/>
+
+  <!-- Tronc central -->
+  <rect class="primary" x="92" y="94" width="16" height="28" rx="2" ry="2"/>
+
+  <!-- Base plate (socle arrondi) -->
+  <path class="primary" d="M28 156
+                           C28 150, 172 150, 172 156
+                           C172 160, 150 164, 100 164
+                           C50 164, 28 160, 28 156
+                           Z"/>
+</svg>
